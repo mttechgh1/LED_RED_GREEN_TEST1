@@ -1,4 +1,4 @@
-# LED test program for raspberry pi 400
+ # LED test program for raspberry pi 400
 from  gpiozero import LED
 from time import sleep
 I=0
@@ -9,4 +9,6 @@ ledg.on()
 sleep(3)
 ledr.on()
 sleep(3)
+ledr.off()
+ledg.off()
 print ("END OF LOOP")
