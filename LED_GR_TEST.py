@@ -8,5 +8,5 @@ ledr = LED(12)
 ledg.on()
 sleep(3)
 ledr.on()
-speep = 10
+sleep(3)
 print ("END OF LOOP")
