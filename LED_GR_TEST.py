@@ -12,3 +12,4 @@ sleep(3)
 ledr.off()
 ledg.off()
 print ("END OF LOOP")
+# RESULT:  Turns ON Green first, then red, when loop completes, both led's turn OFF
